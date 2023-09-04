@@ -1,0 +1,19 @@
+{
+  "name": "redesigned-disco",
+  "version": "1.0.0",
+  "description": "An integrated HP, and initiative tracker for tabletop RPG's.",
+  "exports": "./main.js",
+  "type":"module",
+  "node": ">=16",
+  "scripts": {
+    "start": "npx tsc && node ./build/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John \"Ornithopter\" Moore and Deveyus",
+  "license": "LGPL-2.1-or-later",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "eslint": "^8.48.0",
+    "typescript": "^5.2.2"
+  }
+}
